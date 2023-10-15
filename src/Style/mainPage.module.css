@@ -1,0 +1,59 @@
+.mainContainer {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5f6f8;
+    padding: 20px 40px;
+}
+.mainContainer > :nth-child(n){
+    margin-bottom: 30px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    padding: 0 5px;
+    border-radius: 5px;
+    height: 2rem;
+}
+.inputField {
+    border: 0px;
+    padding: 0 5px;
+    outline: none;
+}
+.mainPageCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+    row-gap: 20px;
+}
+
+
+@media screen and (min-width : 700px) {
+    .sideMenuIcon {
+        display:none;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .mainContainer {
+        padding: 5px;
+    }
+}

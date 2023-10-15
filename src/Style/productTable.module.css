@@ -1,0 +1,44 @@
+.parentContainer {
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 0 5px;
+    border-radius: 5px;
+    height: 2rem;
+}
+.inputField {
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    background-color: #f0f0f0;
+    color: gray;
+    
+}
+.borderBottom {
+    padding-bottom: 10px;
+    padding-top: 40px;
+    border-bottom: 2px solid #f0f0f0;
+}
+.centerText {
+    width: 20%;
+    text-align: center;
+}
+.image {
+    border-radius: 5px;
+    overflow: hidden;
+}

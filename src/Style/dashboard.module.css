@@ -1,0 +1,11 @@
+.parentContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+}
+.sideNav {
+    width: 250px;
+    max-width: 300px;
+    z-index: 20;
+}

@@ -1,0 +1,112 @@
+.parent {
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-width: 280px;
+    width: 30%;
+    padding : 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pieChart {
+    width: 240px;
+    height: 240px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    border-radius: 50%;
+    align-self: center;
+    position: relative;
+}
+
+.pieChatInnerCircle {
+    position: absolute;
+    top:20px;
+    left : 20px;
+    width: 200px;
+    height: 200px;
+    background-color: #f2efff;
+    border-radius: 50%;  
+    
+}
+.slice {
+    width: 100%;
+    height: 100%;
+    border-radius: 50% ;
+    position: absolute;
+    clip-path: polygon(50% 50%, 100% 100%, 0 100%);
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+}
+
+.slice:nth-child(1) {
+    top : -8px;
+    right: -8px;
+    background-color: #ef439f;
+    transform: rotate(220deg);
+    border : 0px;
+    z-index: 5;
+}
+
+.slice:nth-child(2) {
+    background-color: #5a34e8;
+    transform: rotate(300deg);
+    left : 5px;
+    top : 2px;
+    z-index: 3;
+    
+}
+
+.secondCircle {
+    width: 150px;
+    height: 150px;
+    top:25px;
+    left:25px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+}
+.thirdCircle {
+    width: 170px;
+    height: 170px;
+    top:15px;
+    left:15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.firstCircle {
+    width: 140px;
+    height: 140px;
+    top:30px;
+    left:30px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* .centerCircle {
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+

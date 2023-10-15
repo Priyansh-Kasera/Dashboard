@@ -1,0 +1,32 @@
+.parent {
+    border-radius:  5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 23%;
+    min-width: 200px;
+    padding: 20px 10px;
+    display: flex;
+    gap: 2px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.image {
+    padding: 20px 20px;
+    border-radius: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.textContent {
+    width: 60%;
+    align-self: center;
+}
+.smallText {
+    font-size: 0.7rem;
+    color : gray
+}
+.text {
+    font-size: 0.7rem;
+    font-weight: 500;
+}

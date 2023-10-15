@@ -1,0 +1,46 @@
+.parent {
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 65%;
+    min-width: 600px;
+    padding : 20px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #f5f6f8;
+}
+.chatBars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.barContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 20px;
+}
+.bar {
+    width: 40px;
+    border-radius: 10px;
+    background-color: #f2efff;
+}
+.chatBars > :nth-child(6) > .bar{
+    background-color: #5a32ea;
+}
+
+@media screen and (max-width : 700px) {
+    .parent {
+        display: none;
+    }
+}
